@@ -148,10 +148,10 @@ export default function Hero({ profile }: { profile: Profile }) {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-md lg:max-w-none">
+        <div className="relative mx-auto w-full  max-w-md lg:max-w-none">
           <div
             ref={imageWrapRef}
-            className="hero-image relative aspect-[4/5] overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-100 to-slate-100"
+            className="hero-image relative aspect-[4/5] overflow-hidden rounded-full bg-gradient-to-br from-indigo-100 to-slate-100"
           >
             <Image
               src={profile.profileImage}

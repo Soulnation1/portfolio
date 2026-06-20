@@ -28,7 +28,8 @@ export default async function Home() {
         />
         <CTA profile={data.profile} />
       </main>
-      <Footer name={data.profile.name} />
-    </>
+      <div className="flex items-center justify-center">
+        <Footer name={data.profile.name} />
+      </div>    </>
   );
 }

@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Okunade Sherif",
+    "name": "Ogundare Ayodeji O.",
     "position": "Frontend Developer",
     "positionHighlight": "Frontend",
     "headline": "I build scalable web applications with clean code and great user experience. Passionate about turning ideas into products that make a difference.",
@@ -8,16 +8,16 @@
     "aboutMeHeader": "A problem solver who loves building.",
     "aboutMeContent": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise in modern web technologies, I focus on writing clean, maintainable code that scales.\n\nWhen I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.",
     "cvFileUrl": "/cv/resume.pdf",
-    "profileImage": "/images/IMG_0760.jpeg",
+    "profileImage": "/images/profile_pics.jpeg",
     "social": {
       "github": "https://github.com/lawdshev",
-      "linkedin": "https://www.linkedin.com/in/sherif-okunade-526896229/",
+      "linkedin": "www.linkedin.com/in/ogundare-ayodeji101",
       "twitter": "https://twitter.com",
-      "email": "o.d.Alsherif@gmail.com"
+      "email": "ogundareoluwaseunayodeji@gmail.com"
     },
     "heroBadges": [
       {
-        "text": "5+ Years Building & Innovating",
+        "text": "3+ Years Building & Innovating",
         "icon": "none",
         "position": "top-left"
       },
@@ -34,14 +34,41 @@
     ]
   },
   "technologies": [
-    { "id": "1", "name": "React", "icon": "/images/tech/react.svg" },
-    { "id": "2", "name": "Next.js", "icon": "/images/tech/nextjs.svg" },
-    { "id": "3", "name": "TypeScript", "icon": "/images/tech/typescript.svg" },
-    { "id": "4", "name": "Node.js", "icon": "/images/tech/nodejs.svg" },
-    { "id": "5", "name": "Tailwind CSS", "icon": "/images/tech/tailwindcss.svg" },
-    { "id": "6", "name": "PostgreSQL", "icon": "/images/tech/postgresql.svg" },
-    { "id": "7", "name": "MongoDB", "icon": "/images/tech/mongodb.svg" },
-    { "id": "8", "name": "Convex", "icon": "/images/tech/convex.svg" }
+    {
+      "id": "1",
+      "name": "React",
+      "icon": "/images/tech/react.svg"
+    },
+    {
+      "id": "2",
+      "name": "Next.js",
+      "icon": "/images/tech/nextjs.svg"
+    },
+    {
+      "id": "3",
+      "name": "TypeScript",
+      "icon": "/images/tech/typescript.svg"
+    },
+    {
+      "id": "4",
+      "name": "Node.js",
+      "icon": "/images/tech/nodejs.svg"
+    },
+    {
+      "id": "5",
+      "name": "Tailwind CSS",
+      "icon": "/images/tech/tailwindcss.svg"
+    },
+    {
+      "id": "8",
+      "name": "Convex",
+      "icon": "/images/tech/convex.svg"
+    },
+    {
+      "id": "52ca6cce-3925-4d32-bac4-87900845d58e",
+      "name": "javascript",
+      "icon": "/images/tech/default.svg"
+    }
   ],
   "stats": [
     {
@@ -121,43 +148,33 @@
   ],
   "skills": [
     {
-      "id": "1",
       "category": "Frontend",
       "items": [
         "React",
         "Next.js",
         "TypeScript",
-        "Tailwind CSS"
-      ]
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "id": "1"
     },
     {
-      "id": "2",
-      "category": "Backend",
-      "items": [
-        "Node.js",
-        "Express",
-        "Convex",
-        "Socket.io"
-      ]
-    },
-    {
-      "id": "3",
-      "category": "Database",
-      "items": [
-        "PostgreSQL",
-        "MongoDB"
-      ]
-    },
-    {
-      "id": "4",
       "category": "Tools",
       "items": [
         "Git",
         "GitHub",
         "VS Code",
-        "Postman",
         "Figma"
-      ]
+      ],
+      "id": "4"
+    },
+    {
+      "category": "BACKEND",
+      "items": [
+        "Convex",
+        "REST APIs"
+      ],
+      "id": "64519c76-22ce-41cd-bd11-a1424ebffaf5"
     }
   ],
   "experience": []

@@ -246,11 +246,10 @@ export default function AdminDashboard() {
                 setTab(id);
                 setMessage("");
               }}
-              className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition ${
-                tab === id
-                  ? "bg-indigo-600 text-white"
-                  : "bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
-              }`}
+              className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition ${tab === id
+                ? "bg-indigo-600 text-white"
+                : "bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
+                }`}
             >
               <Icon className="h-4 w-4" />
               {label}
@@ -445,7 +444,7 @@ function ProfileEditor({
           <input
             type="file"
             accept=".pdf,.doc,.docx"
-            className="text-sm"
+            className="text-sm bg-gray-400 p-3 rounded-md hover:bg-gray-500 cursor-pointer transition-colors duration-200"
             onChange={(e) => {
               const file = e.target.files?.[0];
               if (file) onUpload(file, "cv", (url) => updateProfile("cvFileUrl", url));
@@ -463,8 +462,7 @@ function ProfileEditor({
           <input
             type="file"
             accept="image/*"
-            className="text-sm"
-            onChange={(e) => {
+            className="text-sm bg-gray-400 p-3 rounded-md hover:bg-gray-500 cursor-pointer transition-colors duration-200" onChange={(e) => {
               const file = e.target.files?.[0];
               if (file) onUpload(file, "images", (url) => updateProfile("profileImage", url));
             }}
