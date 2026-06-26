@@ -120,7 +120,7 @@ export default function Hero({ profile }: { profile: Profile }) {
               href="#projects"
               className="magnetic-btn inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-indigo-700"
             >
-              View My Work
+              View My Works
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
