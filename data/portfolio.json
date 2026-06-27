@@ -7,10 +7,10 @@
     "greeting": "Hello there, I'm",
     "aboutMeHeader": "A problem solver who loves building.",
     "aboutMeContent": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise in modern web technologies, I focus on writing clean, maintainable code that scales.\n\nWhen I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.",
-    "cvFileUrl": "/cv/resume.pdf",
+    "cvFileUrl": "/cv/ogundare-oluwaseun-ayodeji.pdf",
     "profileImage": "/images/profile_pics.jpeg",
     "social": {
-      "github": "https://github.com/lawdshev",
+      "github": "https://github.com/Soulnation1",
       "linkedin": "www.linkedin.com/in/ogundare-ayodeji101",
       "twitter": "https://twitter.com",
       "email": "ogundareoluwaseunayodeji@gmail.com"
@@ -94,56 +94,19 @@
   ],
   "projects": [
     {
-      "id": "1",
-      "title": "Notes Manager",
-      "description": "A full-featured note-taking app with real-time sync, rich text editing, and organization tools.",
-      "image": "/images/projects/notes-manager.svg",
-      "tags": [
-        "Next.js",
-        "Convex",
-        "Tailwind CSS"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
-    },
-    {
-      "id": "2",
-      "title": "Chat App",
-      "description": "Real-time messaging platform with rooms, direct messages, and online presence indicators.",
-      "image": "/images/projects/chat-app.svg",
-      "tags": [
-        "React",
-        "Socket.io",
-        "Node.js"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
-    },
-    {
-      "id": "3",
-      "title": "E-Commerce Store",
-      "description": "Modern online store with product catalog, cart, checkout, and admin dashboard.",
-      "image": "/images/projects/ecommerce.svg",
-      "tags": [
-        "Next.js",
-        "Stripe",
-        "PostgreSQL"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
-    },
-    {
-      "id": "4",
-      "title": "Task Tracker",
-      "description": "Project management tool with kanban boards, task assignments, and progress tracking.",
-      "image": "/images/projects/task-tracker.svg",
+      "id": "swing-betelic",
+      "title": "Swing",
+      "description": "Swing is a modern team workspace platform designed to keep remote and hybrid teams in sync. It combines real-time messaging, task management, and collaborative spaces in one unified interface — enabling teams to communicate, track work, and stay aligned without the noise. Built with a clean, dark-themed UI and focused on productivity.",
+      "image": "/images/projects/swing.png",
       "tags": [
         "React",
         "TypeScript",
-        "MongoDB"
+        "Real-time",
+        "SaaS",
+        "Team Collaboration"
       ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
+      "demoUrl": "https://swing.betelic.com/",
+      "githubUrl": "https://github.com/Soulnation1"
     }
   ],
   "skills": [
