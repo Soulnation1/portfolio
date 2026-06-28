@@ -10,8 +10,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Ayodeji Daniel | Full-Stack Developer",
-  description: "Portfolio of Ayodeji Daniel - Full-Stack Developer",
+  title: "Ogundare Ayodeji | Frontend Developer",
+  description: "Portfolio of Ogundare Ayodeji - Frontend Developer",
 };
 
 export default function RootLayout({
